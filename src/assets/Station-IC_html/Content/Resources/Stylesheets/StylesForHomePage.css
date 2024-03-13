@@ -1,0 +1,1018 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/* Home Page General Styles*/
+
+.js-off-canvas-exit
+{
+	box-shadow: none;
+}
+
+div.shadow
+{
+	
+}
+
+div.shadow:hover
+{
+	
+}
+
+MadCap|xref
+{
+	font-weight: bold;
+	text-decoration: underline;
+	mc-format: '{paranum} {paratext}';
+	color: #708090;
+}
+
+MadCap|xref:hover
+{
+	font-weight: bold;
+	text-decoration: none;
+	mc-format: '{paranum} {paratext}';
+	color: #708090;
+}
+
+MadCap|xref:link
+{
+	color: #708090;
+}
+
+a:link
+{
+	color: #006400;
+}
+
+a:visited
+{
+	font-weight: bold;
+	color: #006400;
+}
+
+a:focus
+{
+	font-weight: bold;
+	color: #006400;
+}
+
+a:hover
+{
+	color: #BED230;
+}
+
+a:hover
+{
+	color: #bed230;
+}
+
+a:active
+{
+	font-weight: bold;
+	color: #006400;
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+body
+{
+	font-family: Arial;
+	line-height: 1.5em;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+
+._Skins_HTML5_Herschel_Side_Nav .body-container
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+._Skins_HTML5_Herschel_Side_Nav1 nav.title-bar
+{
+	padding: 35px;
+}
+
+.body-container
+{
+	padding: 0px;
+}
+
+p.amber
+{
+	text-size: 5em;
+	color: #043199;
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+a.BlackText
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+h1
+{
+	font-size: 2.75em;
+	color: #000080;
+}
+
+h3
+{
+	font-size: 1.6785em;
+	font-family: Arial;
+}
+
+h3.SubCenter
+{
+	text-align: center;
+}
+
+img.Hyperlinked
+{
+	border-style: none;
+}
+
+img.Slideshow
+{
+	border-style: none;
+	margin-bottom: 15px;
+}
+
+p
+{
+	color: #404040;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-family: Arial;
+}
+
+p.Copyright
+{
+	font-size: 0.9em;
+	text-align: left;
+	color: #888888;
+	line-height: 1.6em;
+	margin: 0 0 0px 0;
+}
+
+.centered-text
+{
+	text-align: center;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.whiteheader
+{
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.main-section > .row.outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/* Home Page Button Styles */
+
+.button
+{
+	cursor: pointer;
+	background-color: transparent;
+	width: 200px;
+	height: 35px;
+	font-weight: bold;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	transition: all 200ms;
+}
+
+.button.black
+{
+	border: solid 2px black;
+	color: black;
+	background-color: #a4bcc2;
+}
+
+.button.black:hover
+{
+	background-color: #ccc;
+}
+
+.button a
+{
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+/* Responsive Header Styles*/
+
+#contentBody > .responsive-header
+{
+	background-color: transparent;
+}
+
+/* Content Section */
+
+#content-section
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #e6e6e6;
+	margin-top: -50px;
+}
+
+#content-section h3
+{
+	font-weight: normal;
+}
+
+.right-section div.button-group,
+.left-section div.button-group
+{
+	margin-top: 20px;
+}
+
+#content-section .left-section
+{
+	padding-right: 20px;
+}
+
+#content-section .right-section
+{
+	padding-left: 20px;
+}
+
+.left-section .left-content,
+.right-section .right-content
+{
+	height: 320px;
+}
+
+#content-section .right-section .table-images:first-of-type
+{
+	margin-bottom: 20px;
+}
+
+#content-section.mc-blurb p
+{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+#content-section.mc-blurb .mc-bullets
+{
+	margin-top: 10px;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+#content-section.mc-blurb .mc-bullets > li
+{
+	color: #5a5a5a;
+	font-size: 14px;
+	margin-top: 8px;
+	line-height: 1.6em;
+}
+
+/* Home Page Topic Hero section*/
+
+div.topichero
+{
+	background-size: auto;
+	background-color: #f5fffa;
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-top: 20px;
+	height: 1200px;
+	padding-bottom: 150px;
+}
+
+div.topichero h1
+{
+	color: #a91917;
+	font-size: 3.6em;
+	margin-top: 1.11em;
+	margin-bottom: 0.5em;
+	line-height: 100%;
+}
+
+div.topichero h3
+{
+	color: #a91917;
+	font-size: 1.8em;
+	margin-bottom: 80px;
+	line-height: 100%;
+}
+
+.search,
+.search-bar
+{
+	margin: 0 auto;
+	/*	url("/wp-content/uploads/2018/05/icon-detalle.png");*/
+}
+
+/* Home Page slide show */
+
+div.slidingshow
+{
+	margin-top: -79px;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+}
+
+.mc-wrapper .mc-caption
+{
+	background: none;
+}
+
+/* Home Page Video Section */
+
+.video-section
+{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.video-section img
+{
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.video-wrapper
+{
+	padding-bottom: 56.25%;
+	/* 16:9 */
+	position: relative;
+}
+
+.video-section iframe
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-section .columns
+{
+	margin-bottom: 20px;
+}
+
+/* Home Page Footer */
+
+.footer
+{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #758692;
+	text-align: left;
+	min-width: 100%;
+}
+
+.footer a
+{
+	text-decoration: none;
+	color: #DADADA;
+}
+
+.footer > div.row
+{
+	line-height: 30px;
+	padding: 0;
+}
+
+.footer-logo
+{
+	max-width: 100%;
+}
+
+.footer-links
+{
+	text-align: left;
+}
+
+.footer-links a
+{
+	padding-right: 15px;
+}
+
+.footer-icons
+{
+	text-align: right;
+}
+
+.footer-icons > a:first-of-type
+{
+	padding-right: 10px;
+}
+
+/* Mad Cap proxy/editor assigned styles */
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: none;
+	width: 50%;
+	height: 1px;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: none;
+}
+
+p.TOC2
+{
+	margin-left: 20px;
+	display: none;
+}
+
+MadCap|menuProxy.menu1
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|slideshow
+{
+	border-style: none;
+	box-shadow: none;
+}
+
+MadCap|slideshowCaption
+{
+	background: none;
+	color: #000000;
+	padding: 0px;
+	padding-top: 0px;
+}
+
+html.HomePage
+{
+	mc-master-page: url('../MasterPages/HomePage.flmsp');
+	mc-community-features: disabled;
+}
+
+h2
+{
+	font-family: Arial;
+}
+
+div.Fourfourfour	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.Fourfourfour::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.Fourfourfour::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.Fourfourfour > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.Fourfourfour > div:nth-child(1)
+{
+	width: 100%;
+	margin-left: 0%;
+}
+
+div.Fourfourfour > div:nth-child(2)
+{
+	margin-right: 0%;
+	width: 25%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+div.Fourfourfour > div:nth-child(3)
+{
+	margin-right: 0%;
+	width: 25%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+div.Fourfourfour > div:nth-child(4)
+{
+	margin-right: 0%;
+	width: 25%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+div.Fourfourfour > div:nth-child(5)
+{
+	margin-right: 0%;
+	width: 25%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+div.Fourfourfour1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.Fourfourfour1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.Fourfourfour1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.Fourfourfour1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.Fourfourfour1 > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.Fourfourfour1 > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.Fourfourfour1 > div:nth-child(3)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.Fourfourfour2	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.Fourfourfour2::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.Fourfourfour2::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.Fourfourfour2 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.Fourfourfour2 > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.Fourfourfour2 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.Fourfourfour2 > div:nth-child(3)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.Fourfourfour1 > div:nth-child(4)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+a:first-of-type
+{
+	font-weight: bold;
+}
+
+a
+{
+	
+}
+
+MadCap|xref:focus
+{
+	color: #708090;
+}
+
+MadCap|xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+	mc-format: '{paranum} {paratext}';
+}
+
+/* Medium Layout */
+
+@media only screen and (max-width: 64.063em)
+{
+	#content-section .right-section,
+	#content-section .left-section
+	{
+		padding: 0;
+	}
+
+	div.slidingshow
+	{
+		width: 100%;
+	}
+
+	.left-section div.button-group > div
+	{
+		margin-bottom: 20px;
+	}
+}
+
+/* Small Layout */
+
+@media screen and (max-width: 40em)
+{
+	MadCap|searchBarProxy.homeSearchBar
+	{
+		width: 100%;
+	}
+
+	div.topichero h1
+	{
+		font-size: 2em;
+	}
+
+	div.topichero h3
+	{
+		font-size: 1.2em;
+	}
+
+	#content-section
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.video-section
+	{
+		padding-top: 30px;
+	}
+
+	.video-section .columns
+	{
+		padding: 0;
+	}
+
+	.footer-links,
+	p.Copyright,
+	.footer-icons
+	{
+		text-align: center;
+	}
+}
+
+MadCap|searchBarProxy.homeSearchBar
+{
+	
+}
+
+div.button-group
+{
+	
+}
+
+input.search-field.needs-pie
+{
+	box-shadow: 6px 6px grey;
+}
+
+div.splashbox_topics
+{
+	left: 0%;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 25px;
+	background-color: #F0FFFF;
+	position: relative;
+	float: left;
+	margin: 100px;
+	padding: 15px;
+	height: 500px;
+	width: 90%;
+	max-height: 10%;
+	max-width: 75%;
+	border-style: solid;
+	border-color: #FFFFF0;
+	border-width: 5px;
+}
+
+div.TOC_proxy2
+{
+	margin: auto;
+	overflow: auto;
+	border-top-left-radius: 25px;
+	background-color: #F0FFFF;
+	position: relative;
+	float: center;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 95%;
+	max-height: 350px;
+	border-style: solid;
+	border-color: #E6E6FA;
+	border-width: 0px;
+	font-size: 1.2em;
+}
+
+MadCap|tocProxy
+{
+	color: #66b3ff;
+	font-family: 'open_sansregular', Verdana, Arial;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	div.Fourfourfour > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour > div:nth-child(2)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour > div:nth-child(3)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour > div:nth-child(4)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour > div:nth-child(5)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour1 > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour1 > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour1 > div:nth-child(3)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour2 > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour2 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour2 > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour1 > div:nth-child(4)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+}
+
+p.amber
+{
+	visibility: none;
+	padding-left: 68%;
+	text-size: 5em;
+	color: #043199;
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+div.splashbox_topics
+{
+	left: 0%;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 25px;
+	background-color: #F0FFFF;
+	position: relative;
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	height: 400px;
+	width: 95%;
+	max-height: 10%;
+	max-width: 95%;
+	border-style: solid;
+	border-color: #FFFFF0;
+	border-width: 5px;
+}
+
+div.TOC_proxy2
+{
+	margin: auto;
+	overflow: auto;
+	border-top-left-radius: 25px;
+	background-color: #F0FFFF;
+	position: relative;
+	float: center;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 95%;
+	max-height: 350px;
+	border-style: solid;
+	border-color: #E6E6FA;
+	border-width: 0px;
+	font-size: 1.2em;
+}
+
+@media only screen and (max-width: 767px)
+{
+	.footer
+	{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: #758692;
+		text-align: left;
+		min-width: 100%;
+	}
+
+	div.Fourfourfour > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour > div:nth-child(5)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour1 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour2 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour2 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour2 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Fourfourfour1 > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	p.amber
+	{
+		display: none;
+		padding-left: 68%;
+		text-size: 5em;
+		color: #043199;
+		padding-top: 50px;
+		font-weight: bold;
+	}
+}
+

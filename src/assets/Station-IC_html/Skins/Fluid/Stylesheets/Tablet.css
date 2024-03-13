@@ -1,0 +1,3055 @@
+/*<meta />*/
+
+@media only screen and (max-width: 1279px)
+{
+	/* OffCanvas styles */
+
+	html,
+	body
+	{
+		height: 100%;
+		margin: 0;
+	}
+
+	.off-canvas
+	{
+		height: 100%;
+		overflow-x: hidden;
+	}
+
+	.off-canvas-content
+	{
+		max-height: none;
+	}
+
+	/* Foundation Overrides */
+
+	.foundation-wrap,
+	.off-canvas-wrapper,
+	.off-canvas-wrapper-inner
+	{
+		min-height: 100%;
+	}
+
+	.foundation-wrap,
+	.off-canvas-wrapper
+	{
+		overflow: visible;
+	}
+
+	nav.title-bar .menu-icon
+	{
+		display: block;
+		border: none;
+		z-index: 100;
+		position: absolute;
+		background: transparent;
+		cursor: pointer;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	nav.title-bar
+	{
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+
+	/* Topbar Menu Styles */
+
+	.title-bar-section.middle > div
+	{
+		
+	}
+
+	.navigation-wrapper,
+	ul.navigation
+	{
+		display: none;
+	}
+
+	.responsive-header
+	{
+		display: block;
+		background: #292929;
+		height: 60px;
+	}
+
+	.title-bar-layout a.logo
+	{
+		background-position: center center;
+		background-repeat: no-repeat;
+		top: 0;
+		margin: 0;
+	}
+
+	.title-bar .menu-icon span
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-image: url("Images/Menu.png");
+		height: 48px;
+		width: 48px;
+		display: block;
+	}
+
+	.search-bar .search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.search-bar .search-filter
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.search-input
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.off-canvas.position-right
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-right ul ul
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-left
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-left ul ul
+	{
+		background-position: top center;
+	}
+
+	.off-canvas ul ul.is-accordion-submenu
+	{
+		background: inherit;
+	}
+
+	.off-canvas ul.off-canvas-list li.is-drilldown-submenu-parent > a:after
+	{
+		margin-left: 0.5rem;
+	}
+
+	.is-drilldown-submenu .js-drilldown-back > a:after
+	{
+		margin-left: 0.5em;
+	}
+
+	ul.off-canvas-list li a
+	{
+		font-size: 1em;
+		color: #C1C1C1;
+		border-bottom: solid 1px #262626;
+		line-height: inherit;
+	}
+
+	ul.off-canvas-accordion ul > li > a
+	{
+		margin-left: 1em;
+	}
+
+	ul.off-canvas-accordion ul ul > li > a
+	{
+		margin-left: 2em;
+	}
+
+	ul.off-canvas-accordion ul ul ul > li > a
+	{
+		margin-left: 3em;
+	}
+
+	ul.off-canvas-accordion ul ul ul ul > li > a
+	{
+		margin-left: 4em;
+	}
+
+	ul.off-canvas-accordion-rtl ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 1em;
+	}
+
+	ul.off-canvas-accordion-rtl ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 2em;
+	}
+
+	ul.off-canvas-accordion-rtl ul ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 3em;
+	}
+
+	ul.off-canvas-accordion-rtl ul ul ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 4em;
+	}
+
+	/* Side Nav */
+
+	.sidenav-layout
+	{
+		display: block;
+		height: inherit;
+		max-height: none;
+	}
+
+	.sidenav-wrapper
+	{
+		display: none;
+	}
+
+	.body-container
+	{
+		overflow: inherit;
+	}
+
+	.central-dropdown
+	{
+		position: absolute;
+		right: 35px;
+		top: 50%;
+		transform: translateY(-50%);
+		margin: 0;
+	}
+
+	.title-bar-layout .central-account-wrapper
+	{
+		display: none;
+	}
+
+	.menu-icon-container .central-account-wrapper
+	{
+		display: flex;
+	}
+
+	.menu-icon-container .central-account-drop
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 48px;
+		height: 48px;
+		padding: 0;
+	}
+
+	.central-account-text
+	{
+		display: none;
+	}
+
+	.central-dropdown-content
+	{
+		right: -25px;
+	}
+
+	.defaultSkin,
+	.defaultSkin body
+	{
+		height: 100%;
+		margin: 0;
+	}
+
+	.defaultSkin .off-canvas
+	{
+		height: 100%;
+		overflow-x: hidden;
+	}
+
+	.defaultSkin .off-canvas-content
+	{
+		max-height: none;
+	}
+
+	.defaultSkin .foundation-wrap,
+	.defaultSkin .off-canvas-wrapper,
+	.defaultSkin .off-canvas-wrapper-inner
+	{
+		min-height: 100%;
+	}
+
+	.defaultSkin .foundation-wrap,
+	.defaultSkin .off-canvas-wrapper
+	{
+		overflow: visible;
+	}
+
+	.defaultSkin nav.title-bar .menu-icon
+	{
+		display: block;
+		border: none;
+		z-index: 100;
+		position: absolute;
+		background: transparent;
+		cursor: pointer;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.defaultSkin nav.title-bar
+	{
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+
+	.defaultSkin .title-bar-section.middle > div
+	{
+		
+	}
+
+	.defaultSkin .navigation-wrapper,
+	.defaultSkin ul.navigation
+	{
+		display: none;
+	}
+
+	.defaultSkin .responsive-header
+	{
+		display: block;
+		background: #292929;
+		height: 60px;
+	}
+
+	.defaultSkin .title-bar-layout a.logo
+	{
+		background-position: center center;
+		background-repeat: no-repeat;
+		top: 0;
+		margin: 0;
+	}
+
+	.defaultSkin .title-bar .menu-icon span
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-image: url("Images/Menu.png");
+		height: 48px;
+		width: 48px;
+		display: block;
+	}
+
+	.defaultSkin .search-bar .search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.defaultSkin .search-bar .search-filter
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.defaultSkin .search-input
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.defaultSkin .off-canvas.position-right
+	{
+		background-position: top center;
+	}
+
+	.defaultSkin .off-canvas.position-right ul ul
+	{
+		background-position: top center;
+	}
+
+	.defaultSkin .off-canvas.position-left
+	{
+		background-position: top center;
+	}
+
+	.defaultSkin .off-canvas.position-left ul ul
+	{
+		background-position: top center;
+	}
+
+	.defaultSkin .off-canvas ul ul.is-accordion-submenu
+	{
+		background: inherit;
+	}
+
+	.defaultSkin .off-canvas ul.off-canvas-list li.is-drilldown-submenu-parent > a:after
+	{
+		margin-left: 0.5rem;
+	}
+
+	.defaultSkin .is-drilldown-submenu .js-drilldown-back > a:after
+	{
+		margin-left: 0.5em;
+	}
+
+	.defaultSkin ul.off-canvas-list li a
+	{
+		font-size: 1em;
+		color: #C1C1C1;
+		border-bottom: solid 1px #262626;
+		line-height: inherit;
+	}
+
+	.defaultSkin ul.off-canvas-accordion ul > li > a
+	{
+		margin-left: 1em;
+	}
+
+	.defaultSkin ul.off-canvas-accordion ul ul > li > a
+	{
+		margin-left: 2em;
+	}
+
+	.defaultSkin ul.off-canvas-accordion ul ul ul > li > a
+	{
+		margin-left: 3em;
+	}
+
+	.defaultSkin ul.off-canvas-accordion ul ul ul ul > li > a
+	{
+		margin-left: 4em;
+	}
+
+	.defaultSkin ul.off-canvas-accordion-rtl ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 1em;
+	}
+
+	.defaultSkin ul.off-canvas-accordion-rtl ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 2em;
+	}
+
+	.defaultSkin ul.off-canvas-accordion-rtl ul ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 3em;
+	}
+
+	.defaultSkin ul.off-canvas-accordion-rtl ul ul ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 4em;
+	}
+
+	.defaultSkin .sidenav-layout
+	{
+		display: block;
+		height: inherit;
+		max-height: none;
+	}
+
+	.defaultSkin .sidenav-wrapper
+	{
+		display: none;
+	}
+
+	.defaultSkin .body-container
+	{
+		overflow: inherit;
+	}
+
+	.defaultSkin .central-dropdown
+	{
+		position: absolute;
+		right: 35px;
+		top: 50%;
+		transform: translateY(-50%);
+		margin: 0;
+	}
+
+	.defaultSkin .title-bar-layout .central-account-wrapper
+	{
+		display: none;
+	}
+
+	.defaultSkin .menu-icon-container .central-account-wrapper
+	{
+		display: flex;
+	}
+
+	.defaultSkin .menu-icon-container .central-account-drop
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 48px;
+		height: 48px;
+		padding: 0;
+	}
+
+	.defaultSkin .central-account-text
+	{
+		display: none;
+	}
+
+	.defaultSkin .central-dropdown-content
+	{
+		right: -25px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .body-container
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+		overflow: inherit;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .central-dropdown
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+		left: auto;
+		right: 35px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .central-dropdown .central-account-drop
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .menu-icon-container .central-account-wrapper
+	{
+		display: flex;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .central-dropdown:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .central-account-image
+	{
+		background: transparent url('Images/icon-user-white.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/icon-user-white.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .central-dropdown-content
+	{
+		height: auto;
+		left: auto;
+		right: -25px;
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav div.central-dropdown-content > a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav div.central-dropdown-content > a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .central-separator
+	{
+		background-color: #D5D8DA;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav nav.title-bar
+	{
+		background-repeat: no-repeat;
+		background-position: center top;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background: #ffffff none;
+		background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		-pie-background: linear-gradient(#ffffff, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .off-canvas-wrapper-inner nav.title-bar .outer-row
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #knowledge-panel
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #search-results-flex
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .knowledge-panel-container.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .title-bar-layout .logo-wrapper
+	{
+		min-height: 70px;
+		justify-content: flex-start;
+		flex-basis: 100%;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .title-bar-layout a.logo
+	{
+		width: 236px;
+		height: 70px;
+		background: #b0c4de url('Images/Clear-Com-Logo-Judy.png') no-repeat center center;
+		background: url('Images/Clear-Com-Logo-Judy.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/Clear-Com-Logo-Judy.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/Clear-Com-Logo-Judy.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/Clear-Com-Logo-Judy.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/Clear-Com-Logo-Judy.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/Clear-Com-Logo-Judy.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Fluid/Stylesheets/Images/Clear-Com-Logo-Judy.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .menu-icon-container
+	{
+		min-height: 70px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .off-canvas-wrapper-inner .outer-row
+	{
+		padding-right: 0em;
+		padding-left: 1em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .main-section > .outer-row
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .off-canvas-content
+	{
+		max-height: none;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .sidenav-layout
+	{
+		max-height: none;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .proxy-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.faq.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .proxy-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.knowledge.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .proxy-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .micro-content-proxy.promotion.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .off-canvas
+	{
+		background-position: top center;
+		background: #768691;
+		background: -moz-linear-gradient(top, #768691 0%, #768691 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#768691), color-stop(100%,#768691));
+		background: -webkit-linear-gradient(top, #768691 0%, #768691 100%);
+		background: -o-linear-gradient(top, #768691 0%,#768691 100%);
+		background: -ms-linear-gradient(top, #768691 0%,#768691 100%);
+		background: linear-gradient(top, #768691 0%,#768691 100%);
+		-pie-background: linear-gradient(#768691, #768691);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .off-canvas ul ul
+	{
+		background-position: top center;
+		background: #768691;
+		background: -moz-linear-gradient(top, #768691 0%, #768691 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#768691), color-stop(100%,#768691));
+		background: -webkit-linear-gradient(top, #768691 0%, #768691 100%);
+		background: -o-linear-gradient(top, #768691 0%,#768691 100%);
+		background: -ms-linear-gradient(top, #768691 0%,#768691 100%);
+		background: linear-gradient(top, #768691 0%,#768691 100%);
+		-pie-background: linear-gradient(#768691, #768691);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list li a
+	{
+		border-bottom: solid 0px #262626;
+		font-family: Arial;
+		font-size: 1em;
+		font-weight: normal;
+		line-height: 1.6em;
+		margin-left: 5px;
+		color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul > li > a
+	{
+		margin-left: 0em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul > li > a
+	{
+		margin-left: 2em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul ul > li > a
+	{
+		margin-left: 3em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul ul ul > li > a
+	{
+		margin-left: 4em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list li.js-drilldown-back > a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle
+	{
+		border-top-color: #f08080;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list li a:hover
+	{
+		color: #C1C1C1;
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list li.js-drilldown-back > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list li a.selected
+	{
+		font-weight: bold;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul > li > a.selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul > li > a.selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul ul > li > a.selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav ul.off-canvas-list ul ul ul ul > li > a.selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .title-bar .menu-icon span
+	{
+		background: transparent url('Images/Menu_1.png') no-repeat center center;
+		background: url('Images/Menu_1.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+		background: url('Images/Menu_1.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+		background: url('Images/Menu_1.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+		background: url('Images/Menu_1.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		background: url('Images/Menu_1.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		background: url('Images/Menu_1.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ffffff 100%);
+		-pie-background: url('Skins/Fluid/Stylesheets/Images/Menu_1.png') no-repeat center center, linear-gradient(#ffffff, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav nav.title-bar .menu-icon
+	{
+		display: block;
+		left: auto;
+		right: -13px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete ul
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-content
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-history
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item.auto-result-selected a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-content.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-history.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item .auto-result-description
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-content .auto-result-description
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-history .auto-result-description
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item .auto-result-icon
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-content .auto-result-icon
+	{
+		background: transparent url('Images/icon-topic.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/icon-topic.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-history .auto-result-icon
+	{
+		background: transparent url('Images/icon-search.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/icon-search.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-content .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-history .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li .auto-result-remove
+	{
+		width: 17px;
+		height: 27px;
+		background: transparent url('Images/icon-remove.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/icon-remove.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-auto-complete li.auto-result-item .auto-result-separator
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .nav-search-wrapper
+	{
+		justify-content: center;
+		flex-basis: 100%;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .nav-search
+	{
+		display: block;
+		width: 80%;
+		margin-top: 15px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-field
+	{
+		background-color: #ffffff;
+		padding-right: 50px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-filter
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-submit
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-filter-content
+	{
+		top: 2em;
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-filter-wrapper.open
+	{
+		background-position: center center;
+		background-color: #ffffff;
+		background-repeat: no-repeat;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-filter:hover
+	{
+		background-repeat: no-repeat;
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-filter.selected
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/icon-filter-selected.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-filter-content ul li button:focus
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .glossary .definition
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .glossary
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .glossary .term
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .glossary .term a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .glossary .term a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .glossary .term a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .glossary .term a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .glossary .term a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav h1#results-heading
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #results-heading
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-field::-moz-placeholder
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-field:-moz-placeholder
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar .search-field:-ms-input-placeholder
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .featured-snippets-container .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #pagination
+	{
+		line-height: 2.5em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #pagination a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #pagination a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #pagination a#selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .description
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .gs-snippet
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList h3.title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList h3.title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList h3.title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList h3.title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList h3.title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList h3.title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList .url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav #resultList
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar.search-bar-container .search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/icon-search.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .search-bar.search-bar-container .search-submit:hover
+	{
+		background-repeat: no-repeat;
+		background-color: transparent;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .phrase-suggest
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .phrase-suggest a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .sidenav-wrapper
+	{
+		display: none;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav .skip-to-content
+	{
+		color: #808080;
+		font-family: Arial;
+		font-size: 13px;
+		font-weight: normal;
+		font-style: normal;
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .body-container
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+		overflow: inherit;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .central-dropdown
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+		left: auto;
+		right: 35px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .central-dropdown .central-account-drop
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .menu-icon-container .central-account-wrapper
+	{
+		display: flex;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .central-dropdown:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .central-account-image
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/icon-user-white.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/icon-user-white.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .central-dropdown-content
+	{
+		height: auto;
+		left: auto;
+		right: -25px;
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 div.central-dropdown-content > a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 div.central-dropdown-content > a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .central-separator
+	{
+		background-color: #D5D8DA;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 nav.title-bar
+	{
+		background-repeat: repeat;
+		background-position: center top;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		background: #455669 none;
+		-pie-background: #455669;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .off-canvas-wrapper-inner nav.title-bar .outer-row
+	{
+		padding-left: 1px;
+		padding-right: 1em;
+		max-width: 92%;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #knowledge-panel
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #search-results-flex
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .knowledge-panel-container.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .title-bar-layout .logo-wrapper
+	{
+		min-height: 66px;
+		justify-content: flex-start;
+		flex-basis: 100%;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .title-bar-layout a.logo
+	{
+		width: 255px;
+		height: 66px;
+		background: transparent url('Images/HTML5 Herschel Side Nav1/LogoWebsite_4.jpg') no-repeat center center;
+		background: url('Images/HTML5 Herschel Side Nav1/LogoWebsite_4.jpg') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/HTML5 Herschel Side Nav1/LogoWebsite_4.jpg') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/HTML5 Herschel Side Nav1/LogoWebsite_4.jpg') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/HTML5 Herschel Side Nav1/LogoWebsite_4.jpg') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/HTML5 Herschel Side Nav1/LogoWebsite_4.jpg') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/HTML5 Herschel Side Nav1/LogoWebsite_4.jpg') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/LogoWebsite_4.jpg') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .menu-icon-container
+	{
+		min-height: 66px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .off-canvas-wrapper-inner .outer-row
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .main-section > .outer-row
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .off-canvas-content
+	{
+		max-height: none;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .sidenav-layout
+	{
+		max-height: none;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .proxy-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.faq.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .proxy-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.knowledge.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .proxy-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .micro-content-proxy.promotion.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .off-canvas
+	{
+		background-position: top center;
+		background-color: #455669;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .off-canvas ul ul
+	{
+		background-position: top center;
+		background-color: #455669;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list li a
+	{
+		border-bottom: solid 1px #262626;
+		font-size: 1em;
+		font-weight: normal;
+		line-height: 1.6em;
+		color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul > li > a
+	{
+		margin-left: 1em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul > li > a
+	{
+		margin-left: 2em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul ul > li > a
+	{
+		margin-left: 3em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul ul ul > li > a
+	{
+		margin-left: 4em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list li.js-drilldown-back > a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle
+	{
+		border-top-color: #1e90ff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list li a:hover
+	{
+		color: #C1C1C1;
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list li.js-drilldown-back > a:hover
+	{
+		background-color: #242424;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list li a.selected
+	{
+		font-weight: bold;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul > li > a.selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul > li > a.selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul ul > li > a.selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 ul.off-canvas-list ul ul ul ul > li > a.selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .title-bar .menu-icon span
+	{
+		background: #455669 url('Images/HTML5 Herschel Side Nav1/Menu.png') no-repeat center center;
+		-pie-background: #455669 url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/Menu.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 nav.title-bar .menu-icon
+	{
+		display: block;
+		left: auto;
+		right: -13px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete ul
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-content
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-history
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item.auto-result-selected a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-content.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-history.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item .auto-result-description
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-content .auto-result-description
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-history .auto-result-description
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item .auto-result-icon
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-content .auto-result-icon
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/icon-topic.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/icon-topic.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-history .auto-result-icon
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/icon-search.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/icon-search.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-content .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-history .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li .auto-result-remove
+	{
+		width: 17px;
+		height: 27px;
+		background: transparent url('Images/HTML5 Herschel Side Nav1/icon-remove.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/icon-remove.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-auto-complete li.auto-result-item .auto-result-separator
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .nav-search-wrapper
+	{
+		justify-content: center;
+		flex-basis: 100%;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .nav-search
+	{
+		display: block;
+		width: 75%;
+		margin-top: 15px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-field
+	{
+		height: 2em;
+		background-repeat: no-repeat;
+		background: #f5f5f5 none;
+		-pie-background: #f5f5f5;
+		padding-right: 50px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-filter
+	{
+		height: 2em;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent none;
+		-pie-background: transparent;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-submit
+	{
+		height: 2em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-filter-content
+	{
+		top: 2em;
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-filter-wrapper.open
+	{
+		background-position: center center;
+		-pie-background: transparent;
+		background-color: #ffffff;
+		background-repeat: no-repeat;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-filter:hover
+	{
+		background-repeat: no-repeat;
+		background-color: transparent;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-filter.selected
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/HTML5 Herschel Side Nav1/icon-filter-selected.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-filter-content ul li button:focus
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .glossary .definition
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .glossary
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .glossary .term
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .glossary .term a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .glossary .term a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .glossary .term a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .glossary .term a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .glossary .term a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 h1#results-heading
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #results-heading
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-field::-moz-placeholder
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-field:-moz-placeholder
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-field:-ms-input-placeholder
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/HTML5 Herschel Side Nav1/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(top, transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response-title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response-title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-response-url
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .featured-snippets-container .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #pagination
+	{
+		line-height: 2.5em;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #pagination a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #pagination a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #pagination a#selected
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .description
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .gs-snippet
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList h3.title a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList h3.title
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList h3.title a:visited
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList h3.title a:focus
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList h3.title a:hover
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList h3.title a:active
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList .url cite
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 #resultList
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar.search-bar-container .search-submit
+	{
+		background-repeat: repeat;
+		background-position: center center;
+		background: #f5f5f5 none;
+		-pie-background: #f5f5f5;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar .search-filter-wrapper
+	{
+		right: 0px;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .search-bar.search-bar-container .search-submit:hover
+	{
+		background-repeat: no-repeat;
+		background: transparent none;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .phrase-suggest
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .phrase-suggest a
+	{
+		
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .sidenav-wrapper
+	{
+		display: none;
+	}
+
+	._Skins_HTML5_Herschel_Side_Nav1 .skip-to-content
+	{
+		color: #808080;
+		font-family: Arial;
+		font-size: 13px;
+		font-weight: normal;
+		font-style: normal;
+		background-color: #ffffff;
+	}
+}
+

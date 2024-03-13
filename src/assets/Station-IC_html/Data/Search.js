@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Homepage.htm'],s:['+'],p:[['+',2],['eclipse',23],['notifications',11],['use',23]]});

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="111px" viewBox="0 0 130 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>warning-6-128</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="warning-6-128" transform="translate(2.000000, 1.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(63.000000, 54.500000) scale(-1, 1) rotate(-180.000000) translate(-63.000000, -54.500000) translate(0.000000, -0.000000)">
+                <path d="M31.1,54.9 C14,25.2 0,0.7 0,0.4 C0,0.2 28.3,0 63,0 C97.7,0 126,0.2 126,0.5 C126,1 68,101.9 64.6,107.3 C64,108.2 63.2,109 62.9,109 C62.6,109 48.3,84.7 31.1,54.9 Z" id="Shape" stroke="#000000" stroke-width="2" fill="#EEEE00"></path>
+                <polygon id="Path" fill="#000000" points="58 48 58 33 63 33 68 33 68 48 68 63 63 63 58 63"></polygon>
+                <path d="M60.2,26.4 C56.1,23.5 57.9,18 63,18 C66.2,18 68,19.7 68,22.6 C68,24.6 64.8,28 63,28 C62.7,28 61.4,27.3 60.2,26.4 Z" id="Path" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>
